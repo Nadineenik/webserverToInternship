@@ -3,6 +3,7 @@ using UserManagementAPI.Models;
 using UserManagementAPI.Services;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace UserManagementAPI.Controllers
 {
@@ -12,12 +13,14 @@ namespace UserManagementAPI.Controllers
     {
         private readonly IUserService _service;
         public UsersController(IUserService service) => _service = service;
+        
         [HttpPost]
-        public ActionResult<User> Create([FromHeader(Name = "X-User")] string createdBy,
+        public ActionResult<User> Create(
+    [FromHeader(Name = "X-User"), Required] string createdBy,
     [FromBody] CreateUserDto dto)
         {
-            
-            if (string.IsNullOrEmpty(createdBy)) return Unauthorized();
+            if (string.IsNullOrWhiteSpace(createdBy))
+                return Unauthorized();
 
             var user = new User
             {
@@ -29,7 +32,8 @@ namespace UserManagementAPI.Controllers
                 Admin = dto.Admin
             };
 
-            return Ok(_service.Create(user, createdBy));
+            var result = _service.Create(user, createdBy);
+            return Ok(result);
         }
 
         [HttpPut("profile/{login}")]

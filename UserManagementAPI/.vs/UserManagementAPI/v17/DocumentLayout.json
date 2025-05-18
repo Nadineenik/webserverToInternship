@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Desktop\\webserverToInternship\\UserManagementAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48B818F6-CB39-4DBC-8E95-B656746D6D6E}|UserManagementAPI.csproj|c:\\users\\\u043D\u0430\u0434\u0435\u0436\u0434\u0430\\desktop\\webservertointernship\\usermanagementapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48B818F6-CB39-4DBC-8E95-B656746D6D6E}|UserManagementAPI.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48B818F6-CB39-4DBC-8E95-B656746D6D6E}|UserManagementAPI.csproj|c:\\users\\\u043D\u0430\u0434\u0435\u0436\u0434\u0430\\desktop\\webservertointernship\\usermanagementapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48B818F6-CB39-4DBC-8E95-B656746D6D6E}|UserManagementAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B818F6-CB39-4DBC-8E95-B656746D6D6E}|UserManagementAPI.csproj|c:\\users\\\u043D\u0430\u0434\u0435\u0436\u0434\u0430\\desktop\\webservertointernship\\usermanagementapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B818F6-CB39-4DBC-8E95-B656746D6D6E}|UserManagementAPI.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48B818F6-CB39-4DBC-8E95-B656746D6D6E}|UserManagementAPI.csproj|c:\\users\\\u043D\u0430\u0434\u0435\u0436\u0434\u0430\\desktop\\webservertointernship\\usermanagementapi\\models\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -64,10 +64,9 @@
               "RelativeDocumentMoniker": "Models\\CreateUserDto.cs",
               "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Desktop\\webserverToInternship\\UserManagementAPI\\Models\\CreateUserDto.cs",
               "RelativeToolTip": "Models\\CreateUserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T09:57:38.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T09:57:38.434Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-17T14:01:10.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T14:01:10.829Z"
             },
             {
               "$type": "Document",
@@ -96,29 +94,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Desktop\\webserverToInternship\\UserManagementAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
               "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Desktop\\webserverToInternship\\UserManagementAPI\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAABAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwCUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T13:11:44.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Desktop\\webserverToInternship\\UserManagementAPI\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\\u041D\u0430\u0434\u0435\u0436\u0434\u0430\\Desktop\\webserverToInternship\\UserManagementAPI\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAfAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T13:23:01.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T13:23:01.685Z"
             },
             {
               "$type": "Document",
