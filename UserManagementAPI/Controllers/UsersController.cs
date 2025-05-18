@@ -13,12 +13,22 @@ namespace UserManagementAPI.Controllers
         private readonly IUserService _service;
         public UsersController(IUserService service) => _service = service;
         [HttpPost]
-        public ActionResult<User> Create([FromBody] User user)
+        public ActionResult<User> Create([FromHeader(Name = "X-User")] string createdBy,
+    [FromBody] CreateUserDto dto)
         {
-            // Admin only: assume auth mocked via header
-            var createdBy = Request.Headers["X-User"].ToString();
+            
             if (string.IsNullOrEmpty(createdBy)) return Unauthorized();
-            user.Admin = user.Admin;
+
+            var user = new User
+            {
+                Login = dto.Login,
+                Password = dto.Password,
+                Name = dto.Name,
+                Gender = dto.Gender,
+                Birthday = dto.Birthday,
+                Admin = dto.Admin
+            };
+
             return Ok(_service.Create(user, createdBy));
         }
 
